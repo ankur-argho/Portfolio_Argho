@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      
+      :root {
+        --primary-color: #2c3e50;
+        --secondary-color: #2980b9;
+        --accent-color: #e74c3c;
+        --light-color: #f4f4f4;
+        --dark-color: #333;
+      }
+
+      
+      .upbar {
+        background: linear-gradient(90deg, #000000, #2c3e50); 
+        color: white;
+        padding: 20px;
+        width: 100%;
+      }
+
+      .alignment {
+        width: 90%;
+        margin: 0 auto;
+      }
+
+      .conM {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+      }
+
+      .con1 ul,
+      .con2 ul {
+        display: flex;
+        gap: 20px;
+        cursor: pointer;
+      }
+
+      .con1 ul li:hover {
+        color: red;
+      }
+
+      .con2 ul li a {
+        color: white;
+      }
+
+      .con2 ul li a:hover {
+        color: red;
+      }
+
+      
+      .mainmenu {
+        width: 100%;
+        padding: 20px;
+        background: linear-gradient(90deg, #090938, #2980b9); 
+      }
+
+      .menu {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+      }
+
+      .menu1 {
+        color: white;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 700;
+      }
+
+      .menu2 ul {
+        display: flex;
+        gap: 40px;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+      }
+
+      .menu2 ul li a {
+        color: white;
+      }
+
+      .menu2 ul li a:hover {
+        color: red;
+      }
+
+      
+      h1 {
+        text-align: center;
+        margin: 20px;
+        color: #090938;
+      }
+
+      h2 {
+        text-align: center;
+        margin: 10px;
+        color: #000;
+        font-weight: 700;
+      }
+      body {
+        background: linear-gradient(180deg, #f4f4f4, #dfe6e9); 
+        padding: 0 10px;
+      }
+
+      
+      footer {
+        background: linear-gradient(90deg, #1f1c1c, #2c3e50); 
+        color: aliceblue;
+        padding: 20px 0;
+      }
+
+      .footercontainar {
+        width: 100%;
+        padding: 40px 20px;
+        text-align: center;
+      }
+
+      .socialicons {
+        display: flex;
+        justify-content: center;
+      }
+
+      .socialicons a {
+        padding: 10px;
+        background-color: aliceblue;
+        margin: 10px;
+        border-radius: 40%;
+        transition: 0.5s;
+      }
+
+      .socialicons a i {
+        font-size: larger;
+        color: black;
+        opacity: 0.9;
+      }
+
+      .socialicons a:hover {
+        background-color: red;
+      }
+
+      .footerbutton {
+        background-color: #1f1c1c;
+        color: aliceblue;
+        padding: 20px;
+        text-align: center;
+        font-size: 1.2em;
+      }
+    </style>
+  </head>
+  <body>
+   
+    <div class="upbar">
+      <div class="alignment">
+        <div class="conM">
+          <div class="con1">
+            <ul>
+              <li><i class="fa-solid fa-phone"></i>&nbsp; +91 81678 80904</li>
+              <li><i class="fa-solid fa-envelope"></i>&nbsp; ghoshargho475@gmail.com</li>
+            </ul>
+          </div>
+          <div class="con2">
+            <ul>
+              <li><a href="https://www.facebook.com/profile.php?id=61560050440580&mibextid=kFxxJD"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="http://t.me/ankur_argho"><i class="fa-brands fa-telegram"></i></a></li>
+              <li><a href="https://www.instagram.com/ankur_argho/profilecard/?igsh=OGQxMGdjcjFkbDRx"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+    <div class="mainmenu">
+      <div class="alignment">
+        <div class="menu">
+          <div class="menu1">
+            <h1>Argho Ghosh</h1>
+          </div>
+          <div class="menu2">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="service.html">Service</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <h1>This is a Portfolio Website</h1>
+    <h1>Personal Details:</h1>
+    <h2>Name: Argho Ghosh</h2>
+    <h2>Father's Name: Anjon Kumar Ghosh</h2>
+    <h2>Mother's Name: Tulshi Rani Ghosh</h2>
+    <h2>Present Address: LPU, Phagwara, Punjab, India</h2>
+    <h2>Permanent Address: Jessore, Khulna, Bangladesh</h2>
+    <h2>Hobby: Playing outdoor and mobile games</h2>
+    <h2>Aim in Life: To become a Web Developer</h2>
+
+    <h1>Academic Details:</h1>
+    <h2>SSC (10<sup>th</sup> standard): 2021 (Jashore Zilla School, Jashore)</h2>
+    <h2>HSC (12<sup>th</sup> standard): 2023 (Jashore Govt. City College, Jashore)</h2>
+    <h2>Currently Studying: BTech CSE in Lovely Professional University (1st year)</h2>
+    <h2>Session: 2024-2028</h2>
+
+    <h1>Contact:</h1>
+    <h2>Phone: +91 81678 80904</h2>
+    <h2>WhatsApp: +91 81678 80904</h2>
+    <h2>Email: ghoshargho475@gmail.com</h2>
+
+    
+    <footer>
+      <div class="footercontainar">
+        <div class="socialicons">
+          <a href="https://www.facebook.com/profile.php?id=61560050440580&mibextid=kFxxJD"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/ankur_argho/profilecard/?igsh=OGQxMGdjcjFkbDRx"><i class="fa-brands fa-instagram"></i></a>
+          <a href="http://t.me/ankur_argho"><i class="fa-brands fa-telegram"></i></a>
+          <a href="mailto:ghoshargho475@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footerbutton">
+        <p>Made &copy;2024; Designed by Argho</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
